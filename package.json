@@ -1,0 +1,26 @@
+{
+  "name": "angol",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ratihun/angol.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ratihun/angol/issues"
+  },
+  "homepage": "https://github.com/ratihun/angol#readme",
+  "description": "",
+  "dependencies": {
+    "compromise": "^14.14.4",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "openai": "^5.20.0"
+  }
+}

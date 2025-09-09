@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<div class="container">
+<h1>Angol Mondat Elemző</h1>
+<p>Írj be egy angol mondatot, és az AI elemzi a szavakat szófaj szerint.</p>
+
+<textarea id="sentenceInput" placeholder="Írd be ide a mondatot... (pl. The quick brown fox jumps over the lazy dog.)"></textarea>
+
+<button id="analyzeButton">Elemzés</button>
+
+<div id="loadingMessage" class="hidden">Elemzés folyamatban...</div>
+<div id="errorMessage" class="error-message hidden"></div>
+
+<div id="resultContainer">
+    <!-- Ide kerülnek a színezett szavak -->
+</div>
+</div>
+
+<script src="script.js"></script>
+</html>

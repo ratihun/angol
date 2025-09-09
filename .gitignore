@@ -1,0 +1,10 @@
+# Node.js függőségek
+node_modules/
+
+# Környezeti változók (API kulcsok)
+.env
+
+# Naplófájlok
+npm-debug.log
+yarn-debug.log
+yarn-error.log
